@@ -269,7 +269,7 @@ ul {
     position: relative;
     overflow: hidden;
     padding-top: var(--navbar-height);
-    background: linear-gradient(135deg, #1f2f46 0%, #2d4566 100%);
+    background: red;
 }
 
 .hero-background {
