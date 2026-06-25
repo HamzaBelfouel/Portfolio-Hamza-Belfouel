@@ -435,13 +435,14 @@ ul {
     width: 56px;
     height: 56px;
     border-radius: var(--radius-lg);
-    background: linear-gradient(135deg, var(--color-primary), var(--color-secondary));
-    color: var(--color-white);
+    background: linear-gradient(135deg, #24344d, #f97366);
+    color: #ffffff;
     display: flex;
     align-items: center;
     justify-content: center;
     margin-bottom: var(--space-5);
     font-size: 1.3rem;
+    box-shadow: 0 10px 20px rgba(249, 115, 102, 0.18);
 }
 
 .apropos-card h3,
