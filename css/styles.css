@@ -1,22 +1,22 @@
 :root {
-    --color-primary: #16324f;
-    --color-primary-dark: #0f2236;
-    --color-secondary: #2f6ea3;
-    --color-accent: #4d89bd;
+       --color-primary: #1f2f46;
+    --color-primary-dark: #162235;
+    --color-secondary: #f97366;
+    --color-accent: #f4c95d;
 
-    --color-white: #ffffff;
-    --color-gray-50: #f8fafc;
-    --color-gray-100: #eef2f7;
-    --color-gray-200: #dbe4ee;
-    --color-gray-300: #c3d0dc;
-    --color-gray-400: #94a3b8;
-    --color-gray-500: #64748b;
-    --color-gray-600: #475569;
-    --color-gray-700: #334155;
-    --color-gray-800: #1f2937;
-    --color-gray-900: #0f172a;
+    --color-white: #f8f5f0;
+    --color-gray-50: #f3eee7;
+    --color-gray-100: #e8dfd4;
+    --color-gray-200: #d8cdbf;
+    --color-gray-300: #c4b5a3;
+    --color-gray-400: #9d8f80;
+    --color-gray-500: #7f7468;
+    --color-gray-600: #5f574f;
+    --color-gray-700: #3f3a36;
+    --color-gray-800: #2d2a27;
+    --color-gray-900: #17181d;
 
-    --color-success: #16a34a;
+    --color-success: #3fa36b;
 
     --font-primary: 'Inter', sans-serif;
     --font-display: 'Playfair Display', serif;
@@ -152,13 +152,13 @@ ul {
 }
 
 .btn-primary {
-    background: var(--color-primary);
-    color: var(--color-white);
+    background: var(--color-secondary);
+    color: #ffffff;
     box-shadow: var(--shadow-sm);
 }
 
 .btn-primary:hover {
-    background: var(--color-primary-dark);
+    background: #e76557;
 }
 
 .btn-secondary {
@@ -190,7 +190,7 @@ ul {
     left: 0;
     width: 100%;
     height: var(--navbar-height);
-    background: rgba(255, 255, 255, 0.95);
+    background: rgba(248, 245, 240, 0.92);
     backdrop-filter: blur(10px);
     z-index: 1000;
     transition: var(--transition);
@@ -269,6 +269,7 @@ ul {
     position: relative;
     overflow: hidden;
     padding-top: var(--navbar-height);
+    background: linear-gradient(135deg, #1f2f46 0%, #2d4566 100%);
 }
 
 .hero-background {
@@ -308,7 +309,7 @@ ul {
 }
 
 .hero-greeting {
-    color: var(--color-secondary);
+    color: var(--color-accent);
     font-weight: 600;
     margin-bottom: var(--space-2);
 }
@@ -317,19 +318,19 @@ ul {
     font-family: var(--font-display);
     font-size: var(--text-5xl);
     line-height: 1.05;
-    color: var(--color-primary);
+    color: #ffffff;
     margin-bottom: var(--space-4);
 }
 
 .hero-title {
     font-size: var(--text-2xl);
     font-weight: 500;
-    color: var(--color-gray-600);
+    color: #f8d7c8;
     margin-bottom: var(--space-6);
 }
 
 .hero-description {
-    color: var(--color-gray-600);
+    color: rgba(255, 255, 255, 0.88);
     font-size: var(--text-lg);
     margin-bottom: var(--space-8);
     max-width: 720px;
