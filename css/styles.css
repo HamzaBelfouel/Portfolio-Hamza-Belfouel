@@ -420,9 +420,9 @@ ul {
 .contact-form,
 .portfolio-item,
 .contact-item {
-    background: var(--color-white);
+    background: #fffaf4;
     border-radius: var(--radius-xl);
-    box-shadow: var(--shadow-md);
+    box-shadow: 0 14px 30px rgba(31, 47, 70, 0.08);
 }
 
 .apropos-card {
