@@ -605,16 +605,21 @@ ul {
 }
 
 .certification-icon {
-    width: 52px;
-    height: 52px;
+    width: 70px;
+    height: 70px;
     flex-shrink: 0;
     border-radius: var(--radius-md);
-    background: var(--color-white);
-    color: var(--color-primary);
+    background: linear-gradient(135deg, #33261d, #c96f4a);
+    color: #ffffff;
     display: flex;
     align-items: center;
     justify-content: center;
-    box-shadow: var(--shadow-sm);
+    box-shadow: 0 10px 20px rgba(201, 111, 74, 0.18);
+    font-size: 1.5rem;
+}
+.certification-icon i {
+    font-size: 1.5rem;
+    color: #ffffff;
 }
 
 .certification-info h4 {
