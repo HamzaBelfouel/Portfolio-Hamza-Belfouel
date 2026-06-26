@@ -1279,4 +1279,72 @@ ul {
     border-radius: var(--radius-2xl);
 }
 
+.apropos-tabs-wrapper {
+    max-width: 900px;
+    margin: 0 auto;
+    background: #fffaf5;
+    border-radius: var(--radius-2xl);
+    box-shadow: 0 18px 40px rgba(36, 26, 20, 0.10);
+    padding: var(--space-8);
+}
+
+.apropos-tabs {
+    display: flex;
+    flex-wrap: wrap;
+    gap: var(--space-3);
+    margin-bottom: var(--space-6);
+    justify-content: center;
+}
+
+.apropos-tab {
+    padding: 0.85rem 1.2rem;
+    border-radius: var(--radius-full);
+    background: #f2e7da;
+    color: #33261d;
+    font-weight: 600;
+    border: none;
+    transition: var(--transition);
+}
+
+.apropos-tab:hover {
+    background: #e7d5c3;
+}
+
+.apropos-tab.active {
+    background: linear-gradient(135deg, #33261d, #c96f4a);
+    color: #ffffff;
+}
+
+.apropos-tab-content {
+    display: none;
+    animation: fadeInTab 0.3s ease;
+}
+
+.apropos-tab-content.active {
+    display: block;
+}
+
+.apropos-tab-content h3 {
+    font-size: var(--text-2xl);
+    color: #33261d;
+    margin-bottom: var(--space-4);
+}
+
+.apropos-tab-content p {
+    font-size: var(--text-lg);
+    color: var(--color-gray-600);
+    line-height: 1.9;
+    margin-bottom: var(--space-4);
+}
+
+@keyframes fadeInTab {
+    from {
+        opacity: 0;
+        transform: translateY(8px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
 
