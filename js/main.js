@@ -29,21 +29,33 @@ document.addEventListener("DOMContentLoaded", function () {
             `
         },
         2: {
-            title: "Calendrier de diffusion",
-            category: "Réseaux sociaux",
-            date: "2025",
-            description: `
-                <p>Élaboration d'un calendrier de publication structuré afin de maintenir une communication cohérente, régulière et alignée avec les objectifs de l'entreprise.</p>
-                <h4>Résultats</h4>
-                <ul>
-                    <li>Meilleure organisation des publications.</li>
-                    <li>Vision claire des contenus à produire.</li>
-                    <li>Meilleure cohérence dans le ton et la fréquence de diffusion.</li>
-                </ul>
-                <h4>Compétences démontrées</h4>
-                <p>Planification, organisation, gestion de contenu, stratégie de communication.</p>
-            `
-        },
+    title: "Capsule vidéo - L'évolution du commerce numérique sur les réseaux sociaux",
+    category: "Réseaux sociaux",
+    date: "2025",
+    description: `
+        <p>Ce projet consiste en la création d'une capsule vidéo verticale portant sur l'évolution du commerce numérique sur les réseaux sociaux. L'objectif était de transformer un sujet actuel et riche en information en un contenu clair, structuré et engageant, adapté aux codes des plateformes sociales.</p>
+
+        <div class="video-wrapper vertical-video">
+            <iframe
+                src="[youtube.com](https://www.youtube.com/embed/7cmX03LkgUI)"
+                title="Capsule vidéo - Commerce numérique sur les réseaux sociaux"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen>
+            </iframe>
+        </div>
+
+        <h4>Objectif du projet</h4>
+        <p>Présenter de manière concise et dynamique une tendance actuelle du marketing numérique, tout en démontrant une capacité à effectuer des recherches, à synthétiser l'information et à l'adapter à un format vidéo court.</p>
+
+        <h4>Compétences démontrées</h4>
+        <ul>
+            <li>Recherche et sélection d'information pertinente</li>
+            <li>Synthèse et vulgarisation d'un sujet marketing</li>
+            <li>Création de contenu numérique adapté aux réseaux sociaux</li>
+            <li>Montage vidéo et structuration d'un message dynamique</li>
+        </ul>
+    `
+},
         3: {
             title: "Optimisation du référencement",
             category: "SEO",
