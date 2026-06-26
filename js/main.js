@@ -244,4 +244,18 @@ document.addEventListener("DOMContentLoaded", function () {
             }, 2500);
         });
     }
+        const aproposTabs = document.querySelectorAll(".apropos-tab");
+    const aproposContents = document.querySelectorAll(".apropos-tab-content");
+
+    aproposTabs.forEach(tab => {
+        tab.addEventListener("click", function () {
+            const target = this.getAttribute("data-tab");
+
+            aproposTabs.forEach(item => item.classList.remove("active"));
+            aproposContents.forEach(content => content.classList.remove("active"));
+
+            this.classList.add("active");
+            document.getElementById(`tab-${target}`).classList.add("active");
+        });
+    });
 });
