@@ -28,16 +28,18 @@ document.addEventListener("DOMContentLoaded", function () {
                 <p>Canva, Meta, Instagram, Facebook.</p>
             `
         },
-        2: {
+       2: {
     title: "Capsule vidéo - L'évolution du commerce numérique sur les réseaux sociaux",
     category: "Réseaux sociaux",
     date: "2025",
     description: `
         <p>Ce projet consiste en la création d'une capsule vidéo verticale portant sur l'évolution du commerce numérique sur les réseaux sociaux. L'objectif était de transformer un sujet actuel et riche en information en un contenu clair, structuré et engageant, adapté aux codes des plateformes sociales.</p>
 
-  <div class="video-wrapper vertical-video">
-    <iframe src="[youtube.com](https://www.youtube.com/embed/7cmX03LkgUI)" title="Capsule vidéo - Commerce numérique sur les réseaux sociaux" allowfullscreen></iframe>
-</div>
+        <p>
+            <a href="[youtube.com](https://www.youtube.com/watch?v=7cmX03LkgUI)" target="_blank" class="btn btn-primary">
+                Voir la capsule vidéo sur YouTube
+            </a>
+        </p>
 
         <h4>Objectif du projet</h4>
         <p>Présenter de manière concise et dynamique une tendance actuelle du marketing numérique, tout en démontrant une capacité à effectuer des recherches, à synthétiser l'information et à l'adapter à un format vidéo court.</p>
