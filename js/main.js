@@ -36,7 +36,7 @@ document.addEventListener("DOMContentLoaded", function () {
         <p>Ce projet consiste en la création d'une capsule vidéo verticale portant sur l'évolution du commerce numérique sur les réseaux sociaux. L'objectif était de transformer un sujet actuel et riche en information en un contenu clair, structuré et engageant, adapté aux codes des plateformes sociales.</p>
 
         <p>
-            <a href="[youtube.com](https://www.youtube.com/watch?v=7cmX03LkgUI)" target="_blank" class="btn btn-primary">
+<a href="[youtube.com](https://www.youtube.com/watch?v=7cmX03LkgUI)" target="_blank" rel="noopener noreferrer" class="btn btn-primary">
                 Voir la capsule vidéo sur YouTube
             </a>
         </p>
