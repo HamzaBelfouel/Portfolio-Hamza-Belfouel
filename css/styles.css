@@ -1355,4 +1355,8 @@ ul {
         transform: translateY(0);
     }
 }
+.portfolio-link {
+    margin-top: 0.9rem;
+    display: inline-flex;
+}
 
