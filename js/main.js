@@ -32,7 +32,7 @@ document.addEventListener("DOMContentLoaded", function () {
     title: "Capsule vidéo - L'évolution du commerce numérique sur les réseaux sociaux",
     category: "Réseaux sociaux",
     date: "2025",
-    watchUrl: "https://www.youtube.com/watch?v=7cmX03LkgUI",
+       watchUrl: "https://youtu.be/cboKAqRs-Zw",
     description: `
         <p>Ce projet consiste en la création d'une capsule vidéo verticale portant sur l'évolution du commerce numérique sur les réseaux sociaux. L'objectif était de transformer un sujet actuel et riche en information en un contenu clair, structuré et engageant, adapté aux codes des plateformes sociales.</p>
 
