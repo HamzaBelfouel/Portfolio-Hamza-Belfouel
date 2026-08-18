@@ -28,10 +28,11 @@ document.addEventListener("DOMContentLoaded", function () {
                 <p>Canva, Meta, Instagram, Facebook.</p>
             `
         },
-       2: {
+             2: {
     title: "Capsule vidéo - L'évolution du commerce numérique sur les réseaux sociaux",
     category: "Réseaux sociaux",
     date: "2025",
+    watchUrl: "https://www.youtube.com/watch?v=7cmX03LkgUI",
     description: `
         <p>Ce projet consiste en la création d'une capsule vidéo verticale portant sur l'évolution du commerce numérique sur les réseaux sociaux. L'objectif était de transformer un sujet actuel et riche en information en un contenu clair, structuré et engageant, adapté aux codes des plateformes sociales.</p>
 
@@ -177,7 +178,13 @@ document.addEventListener("DOMContentLoaded", function () {
             const projectId = this.getAttribute("data-project");
             const project = projectsData[projectId];
 
-            if (project) {
+                        if (project) {
+                const watchButton = project.watchUrl
+                    ? `<a href="${project.watchUrl}" target="_blank" rel="noopener noreferrer" class="btn btn-secondary portfolio-link">
+                            <i class="fas fa-play"></i> Voir la vidéo
+                       </a>`
+                    : "";
+
                 modalBody.innerHTML = `
                     <span class="portfolio-category">${project.category}</span>
                     <h2>${project.title}</h2>
@@ -185,6 +192,7 @@ document.addEventListener("DOMContentLoaded", function () {
                     <div class="modal-project-content">
                         ${project.description}
                     </div>
+                    ${watchButton}
                 `;
                 modal.classList.add("active");
                 document.body.style.overflow = "hidden";
