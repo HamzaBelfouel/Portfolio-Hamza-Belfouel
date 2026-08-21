@@ -1135,6 +1135,28 @@ ul {
     margin-bottom: var(--space-4);
 }
 
+.seo-chart {
+    margin: var(--space-5) 0 var(--space-6);
+    padding: var(--space-5);
+    background: var(--color-gray-50);
+    border-radius: var(--radius-lg);
+}
+
+.seo-chart-title {
+    font-weight: 700;
+    color: var(--color-primary);
+    margin-bottom: var(--space-4);
+    font-size: var(--text-sm);
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+}
+
+.seo-chart-caption {
+    color: var(--color-gray-500);
+    font-size: var(--text-sm);
+    margin-top: var(--space-3);
+}
+
 .video-wrapper {
     position: relative;
     width: 100%;
