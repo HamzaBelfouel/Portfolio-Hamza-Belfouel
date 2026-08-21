@@ -48,20 +48,60 @@ document.addEventListener("DOMContentLoaded", function () {
         </ul>
     `
 },
-        3: {
-            title: "Optimisation du référencement",
+       3: {
+            title: "Audit SEO du site web de la Pâtisserie Noisette & Chocolat",
             category: "SEO",
             date: "2025",
             description: `
-                <p>Contribution à l'amélioration de la visibilité numérique d'une entreprise locale grâce à une approche orientée référencement naturel.</p>
-                <h4>Interventions</h4>
+                <p>Dans le cadre du stage, réalisation d'un audit technique du site web de l'entreprise à l'aide de Google Analytics et de Google Search Console, afin d'identifier les éléments nuisant à sa visibilité dans les moteurs de recherche et à l'expérience des visiteurs.</p>
+ 
+                <h4>Constats par catégorie</h4>
+                <div class="seo-chart">
+                    <p class="seo-chart-title">Constats techniques identifiés (7 au total)</p>
+                    <svg viewBox="0 0 480 186" role="img" aria-label="Graphique à barres horizontales des constats par catégorie : Référencement SEO 2, Réseaux sociaux 2, Accessibilité et mobile 2, Sécurité 1" preserveAspectRatio="xMinYMin meet" style="width:100%; height:auto; overflow:visible; display:block;">
+                        <line x1="150" y1="14" x2="150" y2="172" stroke="#dccab4" stroke-width="1"/>
+                        <text x="140" y="30" text-anchor="end" dominant-baseline="middle" font-size="13" fill="#675345">Référencement (SEO)</text>
+                        <path d="M150,20 H366 Q370,20 370,24 V36 Q370,40 366,40 H150 Z" fill="#c96f4a"/>
+                        <text x="378" y="30" dominant-baseline="middle" font-size="13" font-weight="600" fill="#33261d">2</text>
+ 
+                        <text x="140" y="72" text-anchor="end" dominant-baseline="middle" font-size="13" fill="#675345">Réseaux sociaux</text>
+                        <path d="M150,62 H366 Q370,62 370,66 V78 Q370,82 366,82 H150 Z" fill="#c96f4a"/>
+                        <text x="378" y="72" dominant-baseline="middle" font-size="13" font-weight="600" fill="#33261d">2</text>
+ 
+                        <text x="140" y="114" text-anchor="end" dominant-baseline="middle" font-size="13" fill="#675345">Accessibilité et mobile</text>
+                        <path d="M150,104 H366 Q370,104 370,108 V120 Q370,124 366,124 H150 Z" fill="#c96f4a"/>
+                        <text x="378" y="114" dominant-baseline="middle" font-size="13" font-weight="600" fill="#33261d">2</text>
+ 
+                        <text x="140" y="156" text-anchor="end" dominant-baseline="middle" font-size="13" fill="#675345">Sécurité</text>
+                        <path d="M150,146 H256 Q260,146 260,150 V162 Q260,166 256,166 H150 Z" fill="#c96f4a"/>
+                        <text x="268" y="156" dominant-baseline="middle" font-size="13" font-weight="600" fill="#33261d">1</text>
+                    </svg>
+                    <p class="seo-chart-caption">Répartition des 7 constats relevés lors de l'audit, entre référencement, partages sociaux, accessibilité mobile et sécurité du domaine.</p>
+                </div>
+ 
+                <h4>Constats principaux</h4>
                 <ul>
-                    <li>Observation des contenus existants.</li>
-                    <li>Amélioration de certains textes et angles de communication.</li>
-                    <li>Réflexion autour de la visibilité en ligne et de la pertinence du contenu.</li>
+                    <li>Lien brisé (erreur 404) détecté sur une page de catégorie de produits.</li>
+                    <li>Absence de méta description sur la page d'accueil, réduisant le taux de clic dans les résultats de recherche.</li>
+                    <li>Image Open Graph sous-dimensionnée, limitant la qualité d'affichage lors des partages sur les réseaux sociaux.</li>
+                    <li>Balises de partage incomplètes pour certaines plateformes sociales.</li>
+                    <li>Politique DMARC du domaine non configurée, exposant le nom de domaine à un risque d'usurpation par courriel.</li>
+                    <li>Zones tactiles trop rapprochées sur mobile, nuisant à la navigation.</li>
+                    <li>Contraste insuffisant sur le bouton d'appel à l'action « Commander en ligne », sous les standards d'accessibilité web.</li>
                 </ul>
+ 
+                <h4>Recommandations formulées</h4>
+                <ul>
+                    <li>Corriger ou retirer le lien brisé.</li>
+                    <li>Rédiger une méta description de 70 à 160 caractères intégrant les mots-clés prioritaires.</li>
+                    <li>Agrandir l'image Open Graph au format recommandé et compléter les balises de partage manquantes.</li>
+                    <li>Configurer une politique DMARC de quarantaine ou de rejet.</li>
+                    <li>Agrandir et espacer les éléments cliquables pour une navigation mobile optimale.</li>
+                    <li>Ajuster les couleurs du bouton pour respecter le ratio de contraste requis.</li>
+                </ul>
+ 
                 <h4>Compétences démontrées</h4>
-                <p>SEO, analyse marketing, amélioration de contenu, visibilité numérique.</p>
+                <p>Audit SEO technique, analyse de données web (Google Analytics, Search Console), rigueur d'observation, capacité à vulgariser des recommandations techniques pour une équipe non spécialisée.</p>
             `
         },
         4: {
