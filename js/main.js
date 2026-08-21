@@ -12,20 +12,75 @@ document.addEventListener("DOMContentLoaded", function () {
     const contactForm = document.getElementById("contactForm");
 
     const projectsData = {
-        1: {
-            title: "Stratégie de contenu pour événements saisonniers",
+               1: {
+            title: "Calendrier de diffusion et stratégie de contenu — Juin 2025",
             category: "Marketing digital",
             date: "2025",
             description: `
-                <p>Projet axé sur la création et la planification de contenu promotionnel pour des événements saisonniers, notamment la Fête des Pères et la Saint-Jean-Baptiste.</p>
-                <h4>Objectifs</h4>
+                <p>Conception et planification d'un calendrier de diffusion Instagram d'un mois complet pour la pâtisserie, à partir d'une observation simple sur la clientèle : ce sont surtout les parents, et particulièrement les mères, qui achètent — pour leurs enfants. La stratégie de contenu a donc été construite pour capter ce qui intéresse les enfants, plutôt que de s'adresser directement aux parents.</p>
+
+                <h4>Stratégie de contenu</h4>
                 <ul>
-                    <li>Créer du contenu visuel et textuel engageant pour les réseaux sociaux.</li>
-                    <li>Adapter les publications aux temps forts commerciaux et au public cible.</li>
-                    <li>Renforcer la visibilité de la marque lors de périodes promotionnelles.</li>
+                    <li><strong>Actualité cinéma jeunesse :</strong> alignement du contenu sur les sorties de films très attendues par les enfants (le film « Dragons » notamment), avec des créations pâtissières sur le thème du film au moment de sa sortie en salle.</li>
+                    <li><strong>Événementiel expérientiel :</strong> mise en avant d'un atelier père/enfant pour la Fête des Pères, teasing puis rappel avant l'événement.</li>
+                    <li><strong>Ancrage culturel québécois :</strong> pour la Saint-Jean-Baptiste, une déclinaison de produits aux couleurs du Québec, dans l'esprit des campagnes saisonnières de grandes chaînes comme Tim Hortons.</li>
+                    <li><strong>Coulisses et engagement :</strong> capsules vidéo « backstage » montrant la confection des pâtisseries, et un jeu-concours sur Instagram (une plateforme où les concours généraient historiquement un fort engagement) pour stimuler la participation de la communauté.</li>
+                    <li><strong>Contenu récurrent :</strong> une publication hebdomadaire « Nos créations » mettant en valeur les commandes du week-end, en plus des promotions estivales.</li>
                 </ul>
-                <h4>Outils utilisés</h4>
-                <p>Canva, Meta, Instagram, Facebook.</p>
+
+                <h4>Calendrier de diffusion — juin 2025</h4>
+                <div class="content-calendar-wrapper">
+                    <p class="content-calendar-title">19 publications planifiées sur le mois</p>
+                    <div class="content-calendar">
+                        <div class="content-calendar-weekdays">
+                            <span>Dim</span><span>Lun</span><span>Mar</span><span>Mer</span><span>Jeu</span><span>Ven</span><span>Sam</span>
+                        </div>
+                        <div class="content-calendar-grid">
+                            <div class="cal-day" title="Post de début de mois"><span class="cal-daynum">1</span><span class="cal-badge"><i class="fas fa-bullhorn"></i></span></div>
+                            <div class="cal-day cal-day--empty"><span class="cal-daynum">2</span></div>
+                            <div class="cal-day" title="Teasing Fête des Pères"><span class="cal-daynum">3</span><span class="cal-badge"><i class="fas fa-gift"></i></span></div>
+                            <div class="cal-day" title="Astuce : comment couper un gâteau"><span class="cal-daynum">4</span><span class="cal-badge"><i class="fas fa-bullhorn"></i></span></div>
+                            <div class="cal-day" title="Vidéo backstage : biscuits « Super Papa »"><span class="cal-daynum">5</span><span class="cal-badge"><i class="fas fa-video"></i></span></div>
+                            <div class="cal-day cal-day--empty"><span class="cal-daynum">6</span></div>
+                            <div class="cal-day" title="Fête des Pères : déroulement de l'activité"><span class="cal-daynum">7</span><span class="cal-badge"><i class="fas fa-gift"></i></span></div>
+                            <div class="cal-day" title="Nos créations : commandes du week-end"><span class="cal-daynum">8</span><span class="cal-badge"><i class="fas fa-cookie-bite"></i></span></div>
+                            <div class="cal-day" title="Annonce spéciale « Dragons »"><span class="cal-daynum">9</span><span class="cal-badge"><i class="fas fa-film"></i></span></div>
+                            <div class="cal-day cal-day--empty"><span class="cal-daynum">10</span></div>
+                            <div class="cal-day" title="Sortie du film « Dragons »"><span class="cal-daynum">11</span><span class="cal-badge"><i class="fas fa-film"></i></span></div>
+                            <div class="cal-day cal-day--empty"><span class="cal-daynum">12</span></div>
+                            <div class="cal-day" title="Rappel Fête des Pères"><span class="cal-daynum">13</span><span class="cal-badge"><i class="fas fa-gift"></i></span></div>
+                            <div class="cal-day cal-day--empty"><span class="cal-daynum">14</span></div>
+                            <div class="cal-day" title="Fête des Pères — jour J : album photo et concours"><span class="cal-daynum">15</span><span class="cal-badge"><i class="fas fa-gift"></i></span></div>
+                            <div class="cal-day cal-day--empty"><span class="cal-daynum">16</span></div>
+                            <div class="cal-day" title="Vidéo backstage : gâteau fleur de lys"><span class="cal-daynum">17</span><span class="cal-badge"><i class="fas fa-video"></i></span></div>
+                            <div class="cal-day cal-day--empty"><span class="cal-daynum">18</span></div>
+                            <div class="cal-day" title="Promo été : boisson fraîche"><span class="cal-daynum">19</span><span class="cal-badge"><i class="fas fa-sun"></i></span></div>
+                            <div class="cal-day cal-day--empty"><span class="cal-daynum">20</span></div>
+                            <div class="cal-day" title="Nos créations : mise en avant du week-end"><span class="cal-daynum">21</span><span class="cal-badge"><i class="fas fa-cookie-bite"></i></span></div>
+                            <div class="cal-day" title="Annonce St-Jean : cupcakes bleu et blanc"><span class="cal-daynum">22</span><span class="cal-badge"><i class="fas fa-flag"></i></span></div>
+                            <div class="cal-day cal-day--empty"><span class="cal-daynum">23</span></div>
+                            <div class="cal-day" title="St-Jean — jour J : gâteau fleur de lys"><span class="cal-daynum">24</span><span class="cal-badge"><i class="fas fa-flag"></i></span></div>
+                            <div class="cal-day cal-day--empty"><span class="cal-daynum">25</span></div>
+                            <div class="cal-day" title="Promo été : boisson fraîche"><span class="cal-daynum">26</span><span class="cal-badge"><i class="fas fa-sun"></i></span></div>
+                            <div class="cal-day cal-day--empty"><span class="cal-daynum">27</span></div>
+                            <div class="cal-day" title="Nos créations : week-end gourmand"><span class="cal-daynum">28</span><span class="cal-badge"><i class="fas fa-cookie-bite"></i></span></div>
+                            <div class="cal-day" title="Sondage : votez pour le dessert de juillet"><span class="cal-daynum">29</span><span class="cal-badge"><i class="fas fa-bullhorn"></i></span></div>
+                            <div class="cal-day" title="Récap du mois et teaser juillet"><span class="cal-daynum">30</span><span class="cal-badge"><i class="fas fa-bullhorn"></i></span></div>
+                        </div>
+                    </div>
+                    <div class="content-calendar-legend">
+                        <span><i class="fas fa-gift"></i> Fête des Pères</span>
+                        <span><i class="fas fa-film"></i> Sortie du film « Dragons »</span>
+                        <span><i class="fas fa-flag"></i> Fête nationale (St-Jean)</span>
+                        <span><i class="fas fa-video"></i> Coulisses / backstage</span>
+                        <span><i class="fas fa-cookie-bite"></i> Nos créations</span>
+                        <span><i class="fas fa-sun"></i> Promotions estivales</span>
+                        <span><i class="fas fa-bullhorn"></i> Contenu d'engagement</span>
+                    </div>
+                </div>
+
+                <h4>Compétences démontrées</h4>
+                <p>Planification éditoriale, analyse de clientèle cible, alignement du contenu sur l'actualité culturelle, coordination de campagne multi-format (photo, vidéo, jeu-concours), Canva, Meta, Instagram.</p>
             `
         },
              2: {
@@ -285,14 +340,31 @@ document.addEventListener("DOMContentLoaded", function () {
             const submitBtn = contactForm.querySelector('button[type="submit"]');
             const originalText = submitBtn.innerHTML;
 
-            submitBtn.innerHTML = '<i class="fas fa-check"></i> Message prêt à envoyer';
+                       submitBtn.innerHTML = '<i class="fas fa-spinner fa-spin"></i> Envoi en cours...';
             submitBtn.disabled = true;
 
-            setTimeout(() => {
-                submitBtn.innerHTML = originalText;
-                submitBtn.disabled = false;
-                contactForm.reset();
-            }, 2500);
+            fetch(contactForm.action, {
+                method: "POST",
+                body: new FormData(contactForm),
+                headers: { "Accept": "application/json" }
+            })
+                .then(response => {
+                    if (response.ok) {
+                        submitBtn.innerHTML = '<i class="fas fa-check"></i> Message envoyé !';
+                        contactForm.reset();
+                    } else {
+                        throw new Error("Erreur d'envoi");
+                    }
+                })
+                .catch(() => {
+                    submitBtn.innerHTML = '<i class="fas fa-exclamation-triangle"></i> Erreur, réessayez';
+                })
+                .finally(() => {
+                    setTimeout(() => {
+                        submitBtn.innerHTML = originalText;
+                        submitBtn.disabled = false;
+                    }, 3000);
+                });
         });
     }
         const aproposTabs = document.querySelectorAll(".apropos-tab");
