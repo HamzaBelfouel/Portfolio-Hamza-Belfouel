@@ -159,20 +159,27 @@ document.addEventListener("DOMContentLoaded", function () {
                 <p>Audit SEO technique, analyse de données web (Google Analytics, Search Console), rigueur d'observation, capacité à vulgariser des recommandations techniques pour une équipe non spécialisée.</p>
             `
         },
-        4: {
-            title: "Organisation d'événements promotionnels",
+               4: {
+            title: "Atelier père/enfant — Bento cakes pour la Fête des Pères",
             category: "Événementiel",
             date: "2025",
             description: `
-                <p>Participation à la préparation d'initiatives promotionnelles en lien avec l'image de marque et les objectifs commerciaux de l'entreprise.</p>
-                <h4>Responsabilités</h4>
+                <p>Conception d'un atelier expérientiel pour la Fête des Pères, pensé pour créer un moment privilégié entre le père et son enfant plutôt qu'une simple vente de pâtisserie.</p>
+
+                <h4>Concept</h4>
+                <p>Des « bento cakes » — de petits gâteaux entièrement vierges, recouverts uniquement d'une crème blanche — sont préparés à l'avance. Tout le matériel de décoration est fourni sur place : glaçages de couleurs, poches à douille et outils de finition. Le père et l'enfant décorent ensemble leur propre gâteau, sans compétence particulière requise.</p>
+
+                <h4>Formules offertes</h4>
                 <ul>
-                    <li>Coordination avec différents fournisseurs.</li>
-                    <li>Soutien logistique à la préparation d'événements.</li>
-                    <li>Contribution à la mise en valeur des campagnes promotionnelles.</li>
+                    <li><strong>Sur place :</strong> le duo décore son gâteau dans la pâtisserie et repart avec.</li>
+                    <li><strong>À emporter :</strong> un kit complet (gâteau vierge, glaçages et outils) à décorer à la maison.</li>
                 </ul>
+
+                <h4>Intégration à la stratégie de diffusion</h4>
+                <p>L'événement s'est appuyé sur le calendrier de contenu du mois : une annonce en teasing, un rappel de dernière minute avant l'activité, puis une publication le jour même avec album photo des participants et annonce des résultats du jeu-concours associé — voir le projet « Calendrier de diffusion et stratégie de contenu ».</p>
+
                 <h4>Compétences démontrées</h4>
-                <p>Coordination, gestion de projet, communication, événementiel.</p>
+                <p>Conception d'expérience client, événementiel, coordination logistique (préparation des gâteaux, matériel de décoration), storytelling autour d'un moment familial.</p>
             `
         },
         5: {
